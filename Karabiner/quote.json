@@ -1,0 +1,29 @@
+{
+    "title": "Josh: Dvorak-style quote",
+    "rules": [
+        {
+            "description": "Josh: q + modifier -> quote, like Dvorak",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "q",
+                        "modifiers": {
+                            "mandatory": [
+                                "fn"
+                            ],
+                            "optional": [
+                                "shift"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "quote"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
