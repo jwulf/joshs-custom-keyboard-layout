@@ -17,7 +17,7 @@ Generated on [http://www.keyboard-layout-editor.com](http://www.keyboard-layout-
 ## Koolertron Setup
 
 1. Remap Caps Lock to Fn2 on Koolertron in the Koolertron setup app in Windows. Save this to the default profile.
-2. Remap `keypad_num_lock` to `fn` in Simple Modifications.
+2. Remap `keypad_num_lock` to `fn` in Simple Modifications in Karabiner.
 3. Set System Keyboard to Colemak.
 
 ## Anne Pro 2 Setup
