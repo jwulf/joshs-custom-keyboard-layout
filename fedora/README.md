@@ -1,4 +1,4 @@
-# Fedora Setup
+# Fedora Halmak Setup
 
 Copy the two files to:
 
