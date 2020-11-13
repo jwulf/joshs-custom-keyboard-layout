@@ -2,7 +2,7 @@
     "title": "Josh: Left-hand arrows on Koolertron",
     "rules": [
         {
-            "description": "Josh: Left-hand arrows on Koolertron",
+            "description": "Josh: Left-hand WASD cursor arrows",
             "manipulators": [
                 {
                     "type": "basic",
