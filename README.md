@@ -8,23 +8,17 @@ These modifications add the best Dvorak key mappings to Halmak. Mostly these are
 
 Use with a QWERTY coded keyboard, and the system keyboard set to Halmak.
 
-## Remappings
-
-![](layout/keyboard-layout.png)
-
-Generated on [http://www.keyboard-layout-editor.com](http://www.keyboard-layout-editor.com). The file `layout/keyboard-layout.json` contains the mappings for that site.
-
 ## Koolertron Setup
 
 1. Remap Caps Lock to Fn2 on Koolertron in the Koolertron setup app in Windows. Save this to the default profile.
 2. Remap `keypad_num_lock` to `fn` in Simple Modifications in Karabiner.
-3. Set System Keyboard to Colemak.
+3. Set System Keyboard to Halmak.
 
 ## Anne Pro 2 Setup
 
 1. Open ObinsKit.
 2. Import `AnnePro2/AnnePro2.json`.
-3. Set System Keyboard to Colemak.
+3. Set System Keyboard to Halmak.
 
 ## Karabiner Setup
 
