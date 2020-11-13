@@ -28,3 +28,10 @@ Use with a QWERTY coded keyboard, and the system keyboard set to Halmak.
 4. Open Karabiner. Go to "Complex Modifications", click "Add rule".
 5. Add the rules you want.
 6. In "Simple Modifications", map `caps_lock` and `keypad_num_lock` to `fn`.
+
+## Enable Halmak in the Mac OS login screen
+
+- Go to System Preferences > Users & Groups.
+- Click the lock to enable changes.
+- Click advanced.
+- Click on "Enable input switcher in login screen".
