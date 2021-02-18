@@ -4,7 +4,11 @@ Karabiner, Koolertron, and Anne Pro 2 configurations for modifications to the [H
 
 I used Dvorak for one year before switching to Colemak. There are some Dvorak mappings that I like for programming, so I modded my layout to include them. I then switched to Halmak in 2019, and have used it for over a year - and love it. Here is an article I wrote about it: "[In Search of the Ultimate Keyboard Layout](https://joshwulf.com/blog/2019/11/ultimate-keyboard/)".
 
-In these layouts, semicolon and colon are reversed, and parens and angle brackets are switched.
+In these layouts, semicolon and colon are reversed, and parens and angle brackets are switched:
+
+![](layout/keyboard-layout.png)
+
+_Image created using [keyboard-layout-editor.com](http://www.keyboard-layout-editor.com/)_.
 
 ## Koolertron Setup
 
