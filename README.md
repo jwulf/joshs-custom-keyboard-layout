@@ -1,37 +1,32 @@
 # Josh's Custom Keyboard Layout
 
-Karabiner configuration for modifications to the [Halmak layout](https://github.com/MadRabbit/halmak) that I use.
+Karabiner, Koolertron, and Anne Pro 2 configurations for modifications to the [Halmak layout](https://github.com/MadRabbit/halmak) that I use.
 
 I used Dvorak for one year before switching to Colemak. There are some Dvorak mappings that I like for programming, so I modded my layout to include them. I then switched to Halmak in 2019, and have used it for over a year - and love it. Here is an article I wrote about it: "[In Search of the Ultimate Keyboard Layout](https://joshwulf.com/blog/2019/11/ultimate-keyboard/)".
 
-These modifications add the best Dvorak key mappings to Halmak. Mostly these are keys used in programming that Dvorak puts closer to the home row, with the Capslock key as a modifier to activate them. Semicolon and colon are reversed, because I don't use semicolons.
-
-Use with a QWERTY coded keyboard, and the system keyboard set to Halmak.
+In these layouts, semicolon and colon are reversed, and parens and angle brackets are switched.
 
 ## Koolertron Setup
 
-1. Remap Caps Lock to Fn2 on Koolertron in the Koolertron setup app in Windows. Save this to the default profile.
-2. Remap `keypad_num_lock` to `fn` in Simple Modifications in Karabiner.
-3. Set System Keyboard to Halmak.
+The `Koolertron` directory contains the layouts for the left and right-hand sides of a [Koolertron AE-SMKD62](https://www.amazon.com/Koolertron-Programmable-Mechanical-Keyboard-Ergonomic/dp/B07PZT3Z25).
+
+You need to get a [Windows image](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/) for VirtualBox or Parallels, and then get the configuration utility for the Koolertron from [here](https://amazonfiles.s3.amazonaws.com/smkd62.rar).
+
+## Mac Setup
+
+In Keyboard, make sure Capslock is mapped to Capslock. We will override it with Karabiner.
 
 ## Anne Pro 2 Setup
 
 1. Open ObinsKit.
 2. Import `AnnePro2/AnnePro2.json`.
-3. Set System Keyboard to Halmak.
+3. Set System Keyboard to a standard QWERTY layout.
 
 ## Karabiner Setup
 
 1. Install [Karabiner](https://pqrs.org/osx/karabiner/index.html).
-2. `mkdir -p ~/.config/karabiner/assets/complex_modifications`
-3. `cp Karabiner/* ~/.config/karabiner/assets/complex_modifications/`
-4. Open Karabiner. Go to "Complex Modifications", click "Add rule".
-5. Add the rules you want.
-6. In "Simple Modifications", map `caps_lock` and `keypad_num_lock` to `fn`.
-
-## Enable Halmak in the Mac OS login screen
-
-- Go to System Preferences > Users & Groups.
-- Click the lock to enable changes.
-- Click advanced.
-- Click on "Enable input switcher in login screen".
+2. In Simple Modifications, map `caps_lock` to `fn`
+3. `mkdir -p ~/.config/karabiner/assets/complex_modifications`
+4. `cp Karabiner/* ~/.config/karabiner/assets/complex_modifications/`
+5. Open Karabiner. Go to "Complex Modifications", click "Add rule".
+6. Add the rules you want.
